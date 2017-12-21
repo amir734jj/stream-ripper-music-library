@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACBuPbjtEPUCfpYTFyrFd5wAAAAACAAAAAAAQZgAAAAEAACAAAADUKrSGeQ+6g1MFRHLq5Fr9ZJS2eraxyDYEDzNKGGQxUAAAAAAOgAAAAAIAACAAAACNpzWKJV4m6U1wfPfoTD7BWtvF58rMCbgHuORg8b2UDiAAAACA57rVOLv5EEwXmC7C5931XkDTlqx1g3rQ7SdzCVC400AAAABkecpnBqq++WItCfsfF7K7xHCN+1QKMXFfBvRAUS0XSeFIvFB6GvE1S7Wgdskv/waplcOsNdt+4iRiEXDbKDGQ</EncryptedPassword>
+    <_PublishTargetUrl>ftp://192.168.1.150</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>07/19/2017 14:40:10</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>07/19/2017 14:40:18</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>07/25/2017 00:48:06</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>02/25/2017 06:44:54</publishTime>
+    </File>
+    <File Include="StreamRipperMusicLibrary.deps.json">
+      <publishTime>12/20/2017 23:41:21</publishTime>
+    </File>
+    <File Include="StreamRipperMusicLibrary.dll">
+      <publishTime>12/20/2017 23:41:17</publishTime>
+    </File>
+    <File Include="StreamRipperMusicLibrary.pdb">
+      <publishTime>12/20/2017 23:41:17</publishTime>
+    </File>
+    <File Include="StreamRipperMusicLibrary.PrecompiledViews.dll">
+      <publishTime>12/20/2017 23:41:20</publishTime>
+    </File>
+    <File Include="StreamRipperMusicLibrary.PrecompiledViews.pdb">
+      <publishTime>12/20/2017 23:41:20</publishTime>
+    </File>
+    <File Include="StreamRipperMusicLibrary.runtimeconfig.json">
+      <publishTime>12/20/2017 23:41:21</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/05/2016 04:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/05/2016 04:55:46</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/20/2017 23:41:21</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>12/20/2017 22:35:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner1.svg">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner2.svg">
+      <publishTime>12/17/2017 13:13:04</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner3.svg">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner4.svg">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>12/20/2017 22:23:57</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/angular/angular.js">
+      <publishTime>12/17/2017 23:39:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/angular/angular.min.js">
+      <publishTime>12/17/2017 23:39:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>12/17/2017 13:13:05</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>12/17/2017 13:13:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>12/17/2017 13:13:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>12/17/2017 13:13:06</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>12/17/2017 13:13:06</publishTime>
+    </File>
+    <File Include="wwwroot/music/rj1.rjstream.com/Kavir %28Live%29-Ebi.mp3">
+      <publishTime>12/20/2017 21:16:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

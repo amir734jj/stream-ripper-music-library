@@ -1,0 +1,5 @@
+bin
+.idea
+wwwroot/music
+*.dll
+obj

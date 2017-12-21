@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row text-center">
+    <h2>Amir's radio stream ripper!</h2>
+</div>
+
+<div ng-app="myApp" ng-controller="myCtrl" class="music-panel">
+    
+    <div class="row">
+        <h3>Add a new stream</h3>
+
+        <form ng-submit="newStream()">
+            <div class="form-group">
+                <label for="url">Stream url address:</label>
+                <input type="url" class="form-control" id="url" ng-model="newStreamUrl">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+
+    <hr/>
+
+    <div class="row">
+
+        <div class="col-md-5">
+            <h2>List of stream</h2>
+
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>Url name</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="url in streams">
+                    <td>{{url}}</td>
+                    <td>
+                        <button ng-click="deleteStream(url)" class="btn btn-danger">Stop stream</button>
+                        <button ng-click="getFiles(url)" class="btn btn-primary">Get files</button>
+                        <button ng-click="getFiles(url, true)" class="btn btn-success">Get files with meta data (slow!)</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-7" ng-hide="!musicsToPlay.length">
+            <h2>Music list</h2>
+
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="nameToken">Filter music:</label>
+                    <input type="text" class="form-control" ng-model="nameToken" id="nameToken"/>
+                </div>
+            </form>
+
+            <br/>
+
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="music in musicsToPlay | search:'name':nameToken">
+
+                    <div class="clearfix">
+                        <div class="pull-left">
+                            <audio controls>
+                                <source src="{{ music.path }}" type="audio/mpeg">
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+
+                        <div class="pull-right">
+                            {{ music.artist }} - {{ music.name }}
+
+                            <span ng-show="music.tags.length">({{ music.tags }})</span>
+                            <a ng-show="music.url" href="{{music.url}}">(Last.fm link)</a>
+
+                            <button class="btn btn-danger" ng-click="deleteFile($index, music.streamUrl, music.fileName)">Delete</button>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
